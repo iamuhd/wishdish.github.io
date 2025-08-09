@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Food</title>
+    <!-- Font Awesome CSS for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- External CSS File -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card-container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            width: 300px;
+            overflow: hidden;
+            margin: 50px;
+            border-radius: 8px;
+            box-shadow: 0 50px 50px rgba(0, 0, 0, 0.6)
+        }
+        .card:hover{
+            transition: 0.5s;
+            background-image: radial-gradient(rgba(223, 143, 38, 0.7),rgba(223, 143, 38, 0.7),rgba(223, 143, 38, 0.7)),url(images/img2.jpg);
+            color: white;
+        }
+        .product-img{
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+        }
+        .card-content{
+            padding: 20px;
+        }
+        .card-content h3{
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .product-btn{
+            padding: 6px 20px;
+            background-color: white;
+            text-decoration: none;
+            color:black;
+            border-radius: 10px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .product-btn:hover{
+            padding: 8px 22px;
+            transition: 0.5s;
+            color: rgb(226, 148, 46);
+            background-color: black;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Logo and Title -->
+        <div class="logo">
+            <h4>
+                <i class="fa-solid fa-burger" style="color:rgb(226, 148, 46); font-size: 40px;"></i>
+                <span>Wish</span>Dish
+            </h4>
+            <h5>
+                Have a Dish of your Wish!
+            </h5>
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Login Button -->
+        <a href="Login.html"><button>Login</button></a>
+    </header>
+    
+    <!--Product Cards-->
+    <div class="card-container">
+        <div class="card">
+            <img class="product-img" src="images/product-img.jpg" alt="">
+            <div class="card-content">
+                <h3>Chiken Cury</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img27.jpg" alt="">
+            <div class="card-content">
+                <h3>Biryani</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img28.jpg" alt="">
+            <div class="card-content">
+                <h3>Nihari</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+     <!--Product Cards 2-->
+     <div class="card-container">
+        <div class="card">
+            <img class="product-img" src="images/product-img4.jpg" alt="">
+            <div class="card-content">
+                <h3>Fish Cury</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img5.jpg" alt="">
+            <div class="card-content">
+                <h3>Saag</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img29.jpg" alt="">
+            <div class="card-content">
+                <h3>Chiken Haleem</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+     <!--Product Cards 3-->
+     <div class="card-container">
+        <div class="card">
+            <img class="product-img" src="images/product-img30.jpg" alt="">
+            <div class="card-content">
+                <h3>Chiken Karahi</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img31.jpg" alt="">
+            <div class="card-content">
+                <h3>Aloo Keema</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img32.jpg" alt="">
+            <div class="card-content">
+                <h3>Daal Chawal</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+     <!--Product Cards 4-->
+     <div class="card-container">
+        <div class="card">
+            <img class="product-img" src="images/product-img33.jpg" alt="">
+            <div class="card-content">
+                <h3>Pulao</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img34.jpeg" alt="">
+            <div class="card-content">
+                <h3>Chapli Kebab</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img35.jpg" alt="">
+            <div class="card-content">
+                <h3>Kofta Curry</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+     <!--Product Cards 5-->
+     <div class="card-container">
+        <div class="card">
+            <img class="product-img" src="images/product-img36.jpg" alt="">
+            <div class="card-content">
+                <h3>Qeema</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img37.jpg" alt="">
+            <div class="card-content">
+                <h3>Aloo Gosht</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="product-img" src="images/product-img38.jpg" alt="">
+            <div class="card-content">
+                <h3>Bhindi Masala</h3>
+                <h3>Price: 1199/= Rs</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam soluta dignissimos eaque porro dolore. Culpa quaerat illo impedit, id porro earum aspernatur sint fugiat numquam vel sequi voluptates nam.</p>
+                <a href="#" class="product-btn">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <!-- Social Media Icons -->
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-youtube" style="padding: 3px 3px;"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook" style="padding: 3px 4px;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="padding: 3px 5px;"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin" style="padding: 3px 5px;"></i></a>
+            </div>
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Product.html">Product</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; Rights are Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
